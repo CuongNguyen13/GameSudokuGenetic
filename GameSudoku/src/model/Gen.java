@@ -20,6 +20,7 @@ public class Gen {
 
 	/**
 	 * tạo mẫu gen có ràng buộc theo hàng [1,2,3,5,6,4,7,9,8]
+	 * 
 	 */
 	public Gen() {
 		Random rdGen = new Random();
@@ -41,5 +42,6 @@ public class Gen {
 public static void main(String[] args) {
 	Gen gen = new Gen();
 	System.out.println(Arrays.toString(gen.getGen()));
+	System.out.println("122");
 }
 }
